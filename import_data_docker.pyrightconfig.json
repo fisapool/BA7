@@ -1,0 +1,9 @@
+{
+  "include": [
+    "import_data_docker.py"
+  ],
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportArgumentType": false,
+  "typeCheckingMode": "off"
+} 

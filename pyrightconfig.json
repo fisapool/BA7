@@ -1,0 +1,15 @@
+{
+  "include": [
+    "server/ml/**/*",
+    "pricing_engine/**/*",
+    "api/**/*"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__"
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.8",
+  "typeCheckingMode": "basic"
+} 

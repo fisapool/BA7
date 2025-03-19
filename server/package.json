@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Price optimization API server",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "python-shell": "^3.0.1",
+    "uuid": "^9.0.0",
+    "pg": "^8.10.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.10",
+    "@types/uuid": "^9.0.1",
+    "@types/pg": "^8.6.6",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+} 

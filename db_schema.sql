@@ -1,0 +1,12 @@
+CREATE DATABASE lazada_products;
+USE lazada_products;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    image_url VARCHAR(255) NOT NULL,
+    product_name VARCHAR(255) NOT NULL,
+    category VARCHAR(255) NOT NULL,
+    price_range VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+); 

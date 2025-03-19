@@ -1,0 +1,36 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Build files
+dist/
+build/
+
+# Database files
+*.sqlite
+*.db
+
+# Don't ignore the CSV data file
+!Lazada_Popular Items_Top Product - sellercenter.csv.csv
